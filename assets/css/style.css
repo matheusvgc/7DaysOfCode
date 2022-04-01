@@ -54,3 +54,30 @@ header .buttons button.cadastrar {
   color: #fff;
   background-color: #8E2424;
 }
+
+/* =============== SOBRE =============== */
+
+.sobre .container {
+  max-width: 800px;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.sobre span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8E2424;
+}
+
+.sobre h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #101828;
+  margin: 25px 0;
+}
+
+.sobre p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #667085;
+}
