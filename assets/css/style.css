@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
@@ -9,18 +9,23 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: #ffffff;
+}
+
 .container {
   max-width: 1280px;
+  margin: 0 auto;
 }
 
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 80px;
+  padding: 18px 0;
 }
 
-header .logo {
+header img.logo {
   width: 150px;
 }
 
@@ -43,6 +48,7 @@ header .buttons button {
   padding: 10px 18px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 
 header .buttons button.entrar {
@@ -80,4 +86,77 @@ header .buttons button.cadastrar {
   font-size: 20px;
   font-weight: 400;
   color: #667085;
+}
+
+
+/* =============== METRICAS =============== */
+
+.metricas {
+  margin-bottom: 90px;
+}
+
+.metricas .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.metrica {
+  max-width: 280px;
+}
+
+.metrica .title-metricas {
+  font-size: 60px;
+  font-weight: 600;
+  color: #8E2424;
+}
+
+.metrica .subtitle-metricas {
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+  margin: 12px 0 8px 0;
+}
+
+.metrica p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+}
+
+
+/* =============== TALENTOS =============== */
+
+.talentos {
+  padding-top: 90px;
+}
+
+.talentos .container {
+  text-align: center;
+}
+
+.talentos span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8E2424;
+  background: rgba(142, 36, 36, 0.05);
+  padding: 5px 15px;
+  border-radius: 14px;
+}
+
+.talentos h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+  margin: 20px 0;
+}
+
+.talentos p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.talentos img {
+  width: 100%;
+  margin: 60px 0;
 }
