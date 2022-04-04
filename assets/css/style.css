@@ -16,13 +16,15 @@ body {
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 2%;
 }
 
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 header img.logo {
@@ -159,4 +161,47 @@ header .buttons button.cadastrar {
 .talentos img {
   width: 100%;
   margin: 60px 0;
+}
+
+
+/* =============== VAGAS =============== */
+
+.vagas .container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.vagas h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #101828;
+  margin-bottom: 32px;
+}
+
+.vagas .card-vaga {
+  padding: 24px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.vagas .card-vaga h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+  margin-bottom: 32px;
+}
+
+.vagas .card-vaga .vaga-info {
+  display: flex;
+  gap: 24px;
+}
+
+.vagas .card-vaga .vaga-info span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #667085;
 }
