@@ -27,7 +27,7 @@ header .container {
   padding-bottom: 18px;
 }
 
-header img.logo {
+header a img.logo {
   width: 150px;
 }
 
@@ -35,6 +35,10 @@ header nav ul {
   display: flex;
   list-style: none;
   gap: 32px;
+}
+
+header nav ul li:hover a {
+  color: #8E2424;
 }
 
 header nav ul li a {
@@ -168,9 +172,6 @@ header .buttons button.cadastrar {
 
 .vagas .container {
   max-width: 800px;
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
 }
 
 .vagas h2 {
@@ -203,5 +204,54 @@ header .buttons button.cadastrar {
 .vagas .card-vaga .vaga-info span {
   font-size: 16px;
   font-weight: 500;
+  color: #667085;
+}
+
+.vagas-design {
+  margin-bottom: 60px;
+}
+
+.vagas-dev {
+  margin-bottom: 100px;
+}
+
+
+/* =============== VAGAS =============== */
+
+.depoimentos .container {
+  background-color: rgba(195, 25, 25, 0.03);
+  text-align: center;
+  padding: 64px;
+  border-radius: 16px;
+}
+
+.depoimentos span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #8E2424;
+}
+
+.depoimentos h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #101828;
+  margin: 16px 0 32px 0;
+}
+
+.depoimentos img {
+  width: 56px;
+  height: 56px;
+}
+
+.depoimentos h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+  margin: 16px 0 4px 0;
+}
+
+.depoimentos p {
+  font-size: 14px;
+  font-weight: 400;
   color: #667085;
 }
